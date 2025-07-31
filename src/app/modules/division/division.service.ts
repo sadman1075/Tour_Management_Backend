@@ -49,7 +49,7 @@ const getSingleDivision = async (payload: IDivision) => {
     const { slug } = payload
     const singleDivision = await Division.findOne({ slug })
     return {
-        singleDivisio
+        singleDivision
     }
 }
 
